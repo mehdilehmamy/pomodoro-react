@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background-color: #252525;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+
+
+.display  {
+    margin: 5rem auto 2rem auto;
+    display: flex;
+    width: 50%;
+    height: 60vh;
+    background-color:rgb(105, 48, 195, 0.2);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 10rem;
+    color: #64dfdf;
+}
+
+.startTimer button {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(105, 48, 195);
+    color: #64dfdf;
+    font-family: 'Bungee', cursive;
+    font-weight: 600;
+    font-size: 100%;
+    cursor: pointer;
+    width: 20%;
+    margin: 10px;
+}
+
+.startTimer button:hover {  
+    background-color: #64dfdf;
+    color: rgb(105, 48, 195);
+}

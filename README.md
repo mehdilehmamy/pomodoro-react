@@ -1,0 +1,1 @@
+A simple Pomodoro app built using React. Built to familiarize myself more with components and useState Hook.
